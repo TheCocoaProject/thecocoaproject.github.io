@@ -1,0 +1,28 @@
+body {
+    background: url("../img/background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#header {
+    display: none;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  border-top: 2px solid;
+  border-top-color: #ffaf38;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #1f5269;
+}
+.container .text-muted {
+  margin: 10px 0;
+  color: white;
+}
