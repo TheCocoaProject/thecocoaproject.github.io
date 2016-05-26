@@ -1,19 +1,18 @@
-@media (min-width: 400px) {
+@media (min-width: 768px) {
     html {
         background: url("../img/background.png") no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        background-color: #ecf0f1 !important;
     }
 }
-body{
+body, html{
   background-color: #ecf0f1 !important;
 }
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   html {
-      background: url("../img/background-mobile.png") no-repeat center center fixed;
+      background: url("../img/background-mobile.png") no-repeat top top fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
