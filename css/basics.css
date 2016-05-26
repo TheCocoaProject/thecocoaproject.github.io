@@ -1,5 +1,5 @@
 @media (min-width: 400px) {
-    html,body {
+    html {
         background: url("../img/background.png") no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -8,8 +8,11 @@
         background-color: #ecf0f1 !important;
     }
 }
+body{
+  background-color: #ecf0f1 !important;
+}
 @media (max-width: 400px) {
-  html,body {
+  html {
       background: url("../img/background-mobile.png") no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
