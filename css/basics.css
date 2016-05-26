@@ -1,21 +1,21 @@
 @media (min-width: 400px) {
-    body {
+    html,body {
         background: url("../img/background.png") no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        background-color: #ecf0f1;
+        background-color: #ecf0f1 !important;
     }
 }
 @media (max-width: 400px) {
-  body {
+  html,body {
       background: url("../img/background-mobile.png") no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      background-color: #ecf0f1;
+      background-color: #ecf0f1 !important;
   }
   h1 {
     font-size: 24pt !important;
